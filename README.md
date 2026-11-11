@@ -20,7 +20,7 @@ Aerial fire-image classification, video-frame analysis, and U-Net segmentation e
 python -m pip install -r requirements.txt
 ```
 
-The original notebook did not preserve an exact environment. TensorFlow/Keras compatibility must be checked for historical checkpoints; no old checkpoint is converted or bundled here.
+TensorFlow/Keras compatibility must be checked for historical checkpoints. No old checkpoint is converted or bundled here.
 
 For classifier training, use the [upstream FLAME repository](https://github.com/AlirezaShamsoshoara/Fire-Detection-UAV-Aerial-Image-Classification-Segmentation-UnmannedAerialVehicle), obtain its separately hosted dataset, and follow its configuration. The upstream classifier is not repackaged as an original model here. Record the repository commit, saved class names, input dimensions, and preprocessing when running new experiments.
 
