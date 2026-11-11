@@ -1,7 +1,5 @@
 # Wildfire detection and segmentation
 
-**Status: historical Pioneer Academics research (2025), with disclosed maintenance for public sharing.**
-
 Aerial fire-image classification, video-frame analysis, and U-Net segmentation experiments. The original notebook uses Alireza Shamsoshoara and collaborators' FLAME repository for classifier training; the uploaded code adds custom video analysis, a U-Net training workflow, custom-image prediction, and frame extraction.
 
 ## Repository contents
