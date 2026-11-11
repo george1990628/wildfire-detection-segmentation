@@ -46,6 +46,6 @@ Without labels, the script reports prediction counts and scores, not accuracy. O
 
 ## Results and limitations
 
-Historical results are not re-established during portfolio preparation. No numerical accuracy claim is carried over from the original video evaluator, which assumed all frames were fire and had an ambiguous score-to-class mapping. The custom-image segmentation example is a visualization, not a held-out IoU benchmark. See [maintenance notes](docs/maintenance.md) for corrections and [attribution](THIRD_PARTY_NOTICES.md).
+Historical results are not re-established during portfolio preparation. No numerical accuracy claim is carried over from the original video evaluator, which assumed all frames were fire and had an ambiguous score-to-class mapping. The custom-image segmentation example is a visualization. See [maintenance notes](docs/maintenance.md) for corrections and [attribution](THIRD_PARTY_NOTICES.md).
 
 The public package includes code only.
